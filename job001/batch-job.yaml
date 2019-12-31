@@ -11,4 +11,4 @@ spec:
       restartPolicy: OnFailure
       containers:
       - name: hyf-job
-        image: 172.17.198.145:5000/mybatchjob
+        image: 172.17.198.145:5000/mybatchjob:1.0
