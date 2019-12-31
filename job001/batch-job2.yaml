@@ -8,9 +8,9 @@ spec:
       labels:
         app: batch-job2
     spec:
-      restartPolicy: OnFailure
       containers:
       - name: sb-job
         image: 172.17.198.145:5000/mybatchjob:1.0
         command: ["ps"]
         args: ["aux"]
+      restartPolicy: Never
