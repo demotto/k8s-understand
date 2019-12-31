@@ -10,5 +10,5 @@ spec:
     spec:
       restartPolicy: OnFailure
       containers:
-      - name: main
-        image: luksa/batch-job
+      - name: hyf-job
+        image: 172.17.198.145:5000/mybatchjob
