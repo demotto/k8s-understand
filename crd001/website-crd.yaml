@@ -4,9 +4,9 @@ metadata:
   name: websites.extensions.example.com
 spec:
   scope: Namespaced
-group: extensions.example.com
-version: v1
-names:
-  kind: Website
-  singular: website
-  plural: websites
+  group: extensions.example.com
+  version: v1
+  names:
+    kind: Website
+    singular: website
+    plural: websites
